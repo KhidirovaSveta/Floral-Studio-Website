@@ -1,0 +1,140 @@
+#Home{
+    .home{
+        background-image: url("../../images/background2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+            .container{
+            .second-section{
+                box-sizing: border-box;
+                padding: 100px 0;
+                width: 100%;
+                height: 750px;
+                display: flex;
+                .info{
+                    color: #fff;
+                    width: 50%;
+                    background-color: rgb(27, 116, 94);
+                    .text{
+                        width: 100%;
+                        margin: 180px 150px;
+                        .missionTxt{
+                            font-size: 38px;
+                            margin-bottom: 10px;
+                        }
+                        .missionParag{
+                            width: 57%;
+                            font-size: 17px;
+                            line-height: 27px;
+                            margin-bottom: 15px;
+                        }
+                        .readBtn{
+                            padding: 14px 45px;
+                            border: 0;
+                            background-color: #dde9da;
+                            font-size: 15px;
+                            color: rgb(27, 116, 94);
+                        }
+                    }
+                }
+                .img{
+                    width: 50%;
+                    background-image: url("../../images/b4.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+
+        // third section
+
+        .third-and-four-section{
+            background-image: url("../../images/background1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            .container{
+              .third-and-four-section-text{
+                padding-top: 70px;
+                text-align: center;
+                color: rgb(27, 116, 94);
+                padding-bottom: 20px;
+                .pricing{
+                    margin: 10px 0;
+                    margin-bottom: 70px;
+                    font-size: 45px;
+                    font-weight: 400;
+                }
+              }
+
+              .four-section{
+                padding-top: 40px;
+                padding-bottom: 50px;
+                .price-cards{
+                    display: flex;
+                    justify-content: space-between;
+                    .price-card{
+                        width: 32%;
+                        border: 1px solid rgb(27, 116, 94);
+                        background-color: #FEF1E6;
+                        padding: 30px 60px;
+                        text-align: center;
+                        .price-per-table{
+                            font-size: 15px;
+                            margin: 10px 0; 
+                            .price{
+                                font-size: 35px;
+                                color: rgb(27, 116, 94);
+                            }
+                        }
+                        .event-name{
+                            font-size: 25px;
+                            font-weight: 400;
+                            margin-bottom: 10px;
+                            color: rgb(12, 91, 71);
+                        }
+                        .flow-description{
+                            font-size: 15px;
+                            line-height: 24px;
+                            color: rgb(27, 116, 94);
+                            margin-bottom: 40px;
+                        }
+                        .shopBtn{
+                            padding: 12px 35px;
+                            font-size: 18px;
+                            border: none;
+                            background-color: #C4D5C0;
+                            color:  rgb(27, 116, 94);
+                            margin-bottom: 40px;
+                        }
+                    }
+                }
+              }
+            }
+        }
+    }
+
+    .fifth-section{
+        text-align: center;
+        margin: 80px;
+        color: rgb(12, 91, 71);
+        .container{
+            .text{
+             margin-bottom: 35px;
+             .lastHeader{
+                font-size: 45px;
+                font-weight: 400;
+             }
+            }
+            .images{
+                display: flex;
+                justify-content: center;
+                h2{
+                    margin: 10px 0;
+                    font-weight: 400;
+                }
+                .who{
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

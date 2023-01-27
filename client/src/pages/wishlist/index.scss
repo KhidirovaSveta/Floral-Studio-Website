@@ -1,0 +1,28 @@
+.container{
+    .allwish{
+        display: flex;
+        column-gap: 35px;
+        flex-wrap: wrap;
+        .wishlist{
+            text-align: center;
+            margin: 50px 0;
+    
+            .removeBtn{
+                color: #fff;
+                cursor: pointer;
+                margin: 10px 0;
+                padding: 5px 12px;
+                border: none;
+                background-color:  rgb(27, 116, 94);
+            }
+        }
+    }
+    .removeAllBtn{
+        cursor: pointer;
+        margin: 15px 0;
+        color: #fff;
+        border: none;
+        padding: 7px 12px;
+        background-color: rgb(154, 0, 0);
+    }
+}

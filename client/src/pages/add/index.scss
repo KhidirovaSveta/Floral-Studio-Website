@@ -1,0 +1,30 @@
+#addFlower{
+    .container{
+        .formik{
+            margin: 80px 0;
+            text-align: center;
+            .addHeader{
+                font-size: 32px;
+                color: rgb(27, 116, 94);
+                margin-bottom: 20px;
+            }
+            .form-input{
+                margin-bottom: 15px;
+                input{
+                    padding: 7px 10px;
+                    font-size: 15px;
+                    width: 50%;
+                }
+                .red{
+                    color: rgb(255, 0, 0);
+                }
+            }
+            .addItemBtn{
+                padding: 10px 25px;
+                border: none;
+                background-color:rgba(16, 99, 78, 0.9);
+                color: #fff;
+            }
+        }
+    }
+}
